@@ -1,0 +1,126 @@
+.section{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section h2.section-head{
+    color: #000;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.section h2.section-head::after{
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 40px auto;
+}
+#header{
+    color: #fff;
+    background-color: #e74c3c;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 5px;
+}
+#menu{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    color: #fff;
+    padding: 15px 20px;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #e09087;
+}
+@media screen and (max-width: 992px)
+{
+    #logo{
+        text-align: center;
+    }
+    #menu{
+        text-align: center;
+    }
+}
+#banner
+{
+    background: url(/images/banner.jpg) no-repeat 0 0;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+    padding: 10px;
+    margin: 0px;
+}
+.banner-title p.lead{
+    background-color: rgba(231, 76, 60,0.7);
+    color: #fff;
+    padding: 10px;
+}
+.service-box{
+    text-align: center;
+}
+.service-box i.bx{
+    color: #e74c3c;
+    font-size: 70px;
+    padding-bottom: 15px;
+}
+#Testimonials{
+  color: #fff;
+  background: url(/images/nicolas-thomas-PLDkBHbM3Hc-unsplash.jpg) no-repeat 0 0;
+  background-size: cover;
+  padding: 50px 0;
+  position: relative;
+}
+#Testimonials::before{
+    background: rgba(52, 73, 94,0.5);
+    content: "";
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+.Testimonials img{
+border-radius: 50%;
+height: 100px;
+width: 100px;
+}
+.sections{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.sections h2.section-head{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.sections h2.section-head::after{
+    background-color: #e74c3c;
+    content: "";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 40px auto;
+}
+@media screen and (max-width: 768px){
+    .Testimonials{
+        text-align: center;
+        background-size: cover;
+    }
+}
+/* @media screen and (min-width: 768px){
+    #Testimonials{
+       background-size;           
+    }
+} */
